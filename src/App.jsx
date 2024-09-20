@@ -40,7 +40,7 @@ function App() {
         </h1>
         <ThemeToggle toggleTheme={toggleTheme} isDarkMode={isDarkMode} />
         <img
-          src="../public/to-do-list.png"
+          src="/to-do-list.png"
           alt="To-Do"
           className="w-12 h-12 flex absolute right-2 z-10 top-16 xs:top-12"
         />

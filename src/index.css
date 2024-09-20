@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --body-color: rgb(255, 255, 255);
+    --text-color: #000000;
+    --bg-color: rgb(255, 255, 255);
+    --b-shadow: 0 0 20px 2px rgb(0, 0, 0, 0.1);
+}
+
+.dark {
+    --body-color: #000000;
+    --bg-color: #272727; /* Dark background */
+    --text-color: #ffffff; /* Dark text */
+  }
